@@ -28,6 +28,10 @@ filetype plugin indent on     " Required!
 
 NeoBundleCheck
 
+" Key maps
+nnoremap <ESC><ESC> :nohlsearch<CR>	" ハイライトを消す
+noremap <C-j> :
+noremap! <C-j> <Enter>
 
 "Plugin settings
 let g:EasyMotion_leader_key = '<Space><Space>'
