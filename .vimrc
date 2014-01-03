@@ -21,6 +21,13 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+
+NeoBundle 'Lokaltog/vim-easymotion'
+
 filetype plugin indent on     " Required!
 
 NeoBundleCheck
+
+
+"Plugin settings
+let g:EasyMotion_leader_key = '<Space><Space>'
