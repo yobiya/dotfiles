@@ -9,3 +9,18 @@ set nobackup
 set visualbell t_vb=	" ビープ音を鳴らさない
 
 syntax on
+
+" NeoBundle settings
+if has('vim_starting')
+  set nocompatible               " Be iMproved
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#rc(expand('~/.vim/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+filetype plugin indent on     " Required!
+
+NeoBundleCheck
