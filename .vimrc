@@ -21,7 +21,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-
+NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Lokaltog/vim-easymotion'
 
 filetype plugin indent on     " Required!
@@ -32,6 +32,10 @@ NeoBundleCheck
 nnoremap <ESC><ESC> :nohlsearch<CR>	" ハイライトを消す
 noremap <C-j> :
 noremap! <C-j> <Enter>
+
+" Alias
+ca ub Unite buffer
+ca uf Unite file
 
 "Plugin settings
 let g:EasyMotion_leader_key = '<Space><Space>'
