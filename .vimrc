@@ -47,14 +47,12 @@ filetype plugin indent on     " Required!
 
 NeoBundleCheck
 
-" Key maps
-nnoremap <ESC><ESC> :nohlsearch<CR>	" ハイライトを消す
-noremap <C-j> :
-noremap! <C-j> <Enter>
-
 " Alias
 ca ub Unite buffer
 ca uf Unite file
 
 "Plugin settings
 let g:EasyMotion_leader_key = '<Space><Space>'
+
+set runtimepath+=~/dotfiles/
+runtime! userautoload/*.vim
