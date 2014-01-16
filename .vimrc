@@ -7,6 +7,7 @@ set nowrap
 set noswapfile
 set nobackup
 set visualbell t_vb=	" ビープ音を鳴らさない
+set wildmode=list:full
 
 syntax on
 
