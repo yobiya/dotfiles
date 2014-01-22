@@ -9,6 +9,8 @@ set nobackup
 set visualbell t_vb=	" ビープ音を鳴らさない
 set wildmode=list:full
 
+filetype plugin on
+
 syntax on
 
 " NeoBundle settings
@@ -52,8 +54,9 @@ NeoBundleCheck
 ca ub Unite buffer
 ca uf Unite file
 
-"Plugin settings
+" Plugin settings
 let g:EasyMotion_leader_key = '<Space><Space>'
 
+" 個別設定を読み込む
 set runtimepath+=~/dotfiles/
 runtime! userautoload/*.vim
