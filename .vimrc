@@ -24,7 +24,6 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'Shougo/vimproc', {
 \ 'build' : {
@@ -49,10 +48,6 @@ NeoBundleLazy 'nosami/Omnisharp', {
 filetype plugin indent on     " Required!
 
 NeoBundleCheck
-
-" Alias
-ca ub Unite buffer
-ca uf Unite file
 
 " Plugin settings
 let g:EasyMotion_leader_key = '<Space><Space>'
