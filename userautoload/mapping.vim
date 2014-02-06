@@ -10,3 +10,7 @@ noremap <C-j> :
 
 " コマンドモードの処理を実行する
 noremap! <C-j> <Enter>
+
+" ノーマルモードに戻った時に日本語入力をOFFにする
+inoremap <silent> <ESC> <ESC>
+inoremap <silent> <C-[> <ESC>
