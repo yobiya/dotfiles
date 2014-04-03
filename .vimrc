@@ -26,6 +26,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimproc', {
 \ 'build' : {
 \     'windows' : 'make -f make_mingw32.mak',
@@ -34,7 +35,6 @@ NeoBundle 'Shougo/vimproc', {
 \     'unix' : 'make -f make_unix.mak',
 \    },
 \ }
-
 
 NeoBundleLazy 'nosami/Omnisharp', {
 \   'autoload': {'filetypes': ['cs']},
@@ -49,9 +49,6 @@ NeoBundleLazy 'nosami/Omnisharp', {
 filetype plugin indent on     " Required!
 
 NeoBundleCheck
-
-" Plugin settings
-let g:EasyMotion_leader_key = '<Space><Space>'
 
 " 個別設定を読み込む
 set runtimepath+=~/dotfiles/
