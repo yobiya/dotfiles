@@ -35,6 +35,9 @@ NeoBundle 'Shougo/vimproc', {
 \     'unix' : 'make -f make_unix.mak',
 \    },
 \ }
+NeoBundle 'tpope/vim-pathogen'
+NeoBundle 'tpope/vim-dispatch'
+NeoBundle 'scrooloose/syntastic'
 
 NeoBundleLazy 'nosami/Omnisharp', {
 \   'autoload': {'filetypes': ['cs']},
