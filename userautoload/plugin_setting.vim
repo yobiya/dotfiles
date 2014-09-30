@@ -6,6 +6,7 @@
 let g:EasyMotion_leader_key = '<Space>'
 
 " Unite
+let g:unite_enable_start_insert = 1
 autocmd FileType unite call unite#custom_default_action('directory', 'file')
 
 " pathgen
