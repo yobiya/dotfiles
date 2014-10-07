@@ -7,6 +7,7 @@ set smartcase
 set nowrap
 set noswapfile
 set nobackup
+set noundofile
 set visualbell t_vb=	" ビープ音を鳴らさない
 set wildmode=list:full
 set hidden
