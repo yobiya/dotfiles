@@ -4,6 +4,7 @@ set shiftwidth=4
 set number
 set hlsearch
 set smartcase
+set textwidth=0
 set nowrap
 set noswapfile
 set nobackup
