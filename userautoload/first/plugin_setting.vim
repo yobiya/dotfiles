@@ -12,6 +12,9 @@ autocmd FileType unite call unite#custom_default_action('directory', 'file')
 " pathgen
 execute pathogen#infect()
 
+" arpeggio
+call arpeggio#load()
+
 " OmniSharp
 let g:OmniSharp_host = "http://localhost:2000"
 let g:OmniSharp_timeout = 1

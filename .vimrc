@@ -42,6 +42,7 @@ NeoBundle 'Shougo/vimproc', {
 NeoBundle 'tpope/vim-pathogen'
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'kana/vim-arpeggio'
 
 NeoBundleLazy 'nosami/Omnisharp', {
 \   'autoload': {'filetypes': ['cs']},
