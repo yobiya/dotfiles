@@ -59,4 +59,6 @@ NeoBundleCheck
 
 " 個別設定を読み込む
 set runtimepath+=~/dotfiles/
-runtime! userautoload/*.vim
+runtime! userautoload/first/*.vim
+runtime! userautoload/second/*.vim
+runtime! userautoload/third/*.vim
