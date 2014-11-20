@@ -31,4 +31,5 @@ Arpeggionoremap jk :w<Return>
 " コマンドモードエイリアス
 ca uf Unite file
 ca ub Unite buffer
+ca ug Unite grep
 ca vs VimShell
