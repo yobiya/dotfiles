@@ -9,11 +9,15 @@ let g:EasyMotion_leader_key = '<Space>'
 let g:unite_enable_start_insert = 1
 autocmd FileType unite call unite#custom_default_action('directory', 'file')
 
-" pathgen
+" pathogen
 execute pathogen#infect()
 
 " arpeggio
 call arpeggio#load()
+
+" syntastic
+let g:syntastic_python_python_exec = '/usr/bin/python'
+let g:syntastic_javascript_checkers = ['jshint']
 
 " OmniSharp
 let g:OmniSharp_host = "http://localhost:2000"

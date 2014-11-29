@@ -15,15 +15,13 @@ set hidden
 
 filetype plugin on
 
-syntax on
-
 " NeoBundle settings
 if has('vim_starting')
   set nocompatible               " Be iMproved
   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
-call neobundle#rc(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
@@ -43,6 +41,7 @@ NeoBundle 'tpope/vim-pathogen'
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-arpeggio'
+NeoBundle 'scrooloose/syntastic'
 
 NeoBundleLazy 'nosami/Omnisharp', {
 \   'autoload': {'filetypes': ['cs']},
@@ -53,10 +52,12 @@ NeoBundleLazy 'nosami/Omnisharp', {
 \   }
 \ }
 
+NeoBundleCheck
+
+call neobundle#end()
+
 
 filetype plugin indent on     " Required!
-
-NeoBundleCheck
 
 " 個別設定を読み込む
 set runtimepath+=~/dotfiles/
