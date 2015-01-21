@@ -12,6 +12,7 @@ set noundofile
 set visualbell t_vb=	" ビープ音を鳴らさない
 set wildmode=list:full
 set hidden
+set updatetime=500	" CursorHoldが発生するまでの時間
 
 filetype plugin on
 
@@ -29,6 +30,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimshell.vim'
+NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/vimproc', {
 \ 'build' : {
 \     'windows' : 'make -f make_mingw32.mak',
