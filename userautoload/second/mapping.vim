@@ -39,3 +39,5 @@ ca osba OmniSharpBuildAsync
 ca osgd OmniSharpGotoDefinition
 ca osft OmniSharpFindType
 ca osfu OmniSharpFindUsages
+ca osgca OmniSharpGetCodeActions
+ca osdoc OmniSharpDocumentation
