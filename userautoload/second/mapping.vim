@@ -33,3 +33,9 @@ ca uf Unite file
 ca ub Unite buffer
 ca ug Unite grep
 ca vs VimShell
+
+ca osb OmniSharpBuild
+ca osba OmniSharpBuildAsync
+ca osgd OmniSharpGotoDefinition
+ca osft OmniSharpFindType
+ca osfu OmniSharpFindUsages
