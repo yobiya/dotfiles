@@ -37,13 +37,12 @@ NeoBundle 'Shougo/vimproc', {
 \     'unix' : 'make -f make_unix.mak',
 \    },
 \ }
-NeoBundle 'tpope/vim-pathogen'
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-arpeggio'
-NeoBundle 'scrooloose/syntastic'
+NeoBundle 'kien/ctrlp.vim'
 
-NeoBundleLazy 'nosami/Omnisharp', {
+NeoBundle 'OmniSharp/omnisharp-vim', {
 \   'autoload': {'filetypes': ['cs']},
 \   'build': {
 \     'windows': 'MSBuild.exe server/OmniSharp.sln /p:Platform="Any CPU"',
