@@ -43,6 +43,9 @@ NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-arpeggio'
 NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'leafgarland/typescript-vim.git'
+NeoBundle 'clausreinke/typescript-tools.git'
+NeoBundle 'digitaltoad/vim-jade'
 
 NeoBundle 'OmniSharp/omnisharp-vim', {
 \   'autoload': {'filetypes': ['cs']},
