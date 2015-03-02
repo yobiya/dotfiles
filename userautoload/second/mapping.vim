@@ -8,6 +8,10 @@ nnoremap <ESC><ESC> :nohlsearch<CR>
 " コマンドモードへ移行する
 noremap <C-j> :
 
+" 行頭・行末へ移動する
+noremap <C-h> ^
+noremap <C-l> $
+
 " カーソルの位置の単語を検索
 noremap <C-k> *
 noremap g<C-k> g*
