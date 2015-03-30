@@ -9,6 +9,12 @@ let g:EasyMotion_leader_key = '<Space>'
 let g:unite_enable_start_insert = 1
 autocmd FileType unite call unite#custom_default_action('directory', 'file')
 
+if executable('ag')
+	let g:unite_source_grep_command = 'ag'
+	let g:unite_source_grep_default_opts = '--nogroup --nocolor --column'
+	let g:unite_source_grep_recursive_opt = ''
+endif
+
 "------ neocomplcache
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
