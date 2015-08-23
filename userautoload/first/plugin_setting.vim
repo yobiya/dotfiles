@@ -93,8 +93,19 @@ let g:syntastic_javascript_checkers = ['jshint']
 "------ OmniSharp
 let g:OmniSharp_host = "http://localhost:2000"
 let g:OmniSharp_timeout = 1
+let g:OmniSharp_selector_ui = "unite"
+let g:OmniSharp_server_type = "v1"
 let g:syntastic_cs_checkers = ['syntax', 'semantic', 'issues']
 set noshowmatch
 set completeopt=longest,menuone,preview
-autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
-autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
+
+augroup omnisharp_commands
+	autocmd!
+
+	autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
+	autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
+augroup END
+
+"------ typescript-tools
+autocmd FileType typescript setlocal omnifunc=TSScompleteFunc
+autocmd FileType set balloonexpr=TSSballoon()

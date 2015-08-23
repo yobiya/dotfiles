@@ -42,18 +42,13 @@ NeoBundle 'Shougo/vimproc', {
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-arpeggio'
-NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'leafgarland/typescript-vim.git'
-NeoBundle 'clausreinke/typescript-tools.git'
+NeoBundle 'https://github.com/clausreinke/typescript-tools.vim.git'
 NeoBundle 'digitaltoad/vim-jade'
+NeoBundle 'GutenYe/json5.vim'
 
-NeoBundle 'OmniSharp/omnisharp-vim', {
+NeoBundle 'OmniSharp/omnisharp-vim.git', {
 \   'autoload': {'filetypes': ['cs']},
-\   'build': {
-\     'windows': 'MSBuild.exe server/OmniSharp.sln /p:Platform="Any CPU"',
-\     'mac': 'xbuild server/OmniSharp.sln',
-\     'unix': 'xbuild server/OmniSharp.sln',
-\   }
 \ }
 
 NeoBundleCheck
