@@ -42,6 +42,7 @@ NeoBundle 'Shougo/vimproc', {
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-arpeggio'
+NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'leafgarland/typescript-vim.git'
 NeoBundle 'https://github.com/clausreinke/typescript-tools.vim.git'
 NeoBundle 'digitaltoad/vim-jade'
@@ -54,7 +55,6 @@ NeoBundle 'OmniSharp/omnisharp-vim.git', {
 NeoBundleCheck
 
 call neobundle#end()
-
 
 filetype plugin indent on     " Required!
 

@@ -12,10 +12,6 @@ noremap <C-j> :
 noremap <C-h> ^
 noremap <C-l> $
 
-" カーソルの位置の単語を検索
-noremap <C-k> *
-noremap g<C-k> g*
-
 " アスタリスクを入力
 noremap! <C-k> *
 
@@ -31,6 +27,19 @@ xmap <Leader>s <Plug>(easymotion-s2)
 
 " arpeggio
 Arpeggionoremap jk :w<Return>
+
+" incsearch
+map / <Plug>(incsearch-forward)
+map ? <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+map n <Plug>(incsearch-nohl-n)
+map N <Plug>(incsearch-nohl-N)
+map * <Plug>(incsearch-nohl-*)
+map <C-k> <Plug>(incsearch-nohl-*)
+map # <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g<C-k> <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
 
 " コマンドモードエイリアス
 ca uf Unite file
