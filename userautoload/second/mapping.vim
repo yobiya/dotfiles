@@ -15,6 +15,10 @@ noremap <C-l> $
 " アスタリスクを入力
 noremap! <C-k> *
 
+" ¥と\を入れ替える
+inoremap ¥ \
+inoremap \ ¥
+
 " ノーマルモードに戻った時に日本語入力をOFFにする
 inoremap <silent> <ESC> <ESC>
 inoremap <silent> <C-[> <ESC>
