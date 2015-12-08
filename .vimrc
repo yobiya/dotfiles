@@ -24,7 +24,6 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 
-" Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Lokaltog/vim-easymotion'
@@ -42,7 +41,6 @@ NeoBundle 'Shougo/vimproc', {
 NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'kana/vim-arpeggio'
-NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'leafgarland/typescript-vim.git'
 NeoBundle 'https://github.com/clausreinke/typescript-tools.vim.git'
 NeoBundle 'digitaltoad/vim-jade'

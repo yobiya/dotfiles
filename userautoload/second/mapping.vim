@@ -28,19 +28,6 @@ xmap <Leader>s <Plug>(easymotion-s2)
 " arpeggio
 Arpeggionoremap jk :w<Return>
 
-" incsearch
-map / <Plug>(incsearch-forward)
-map ? <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
-map n <Plug>(incsearch-nohl-n)
-map N <Plug>(incsearch-nohl-N)
-map * <Plug>(incsearch-nohl-*)
-map <C-k> <Plug>(incsearch-nohl-*)
-map # <Plug>(incsearch-nohl-#)
-map g* <Plug>(incsearch-nohl-g*)
-map g<C-k> <Plug>(incsearch-nohl-g*)
-map g# <Plug>(incsearch-nohl-g#)
-
 " コマンドモードエイリアス
 ca uf Unite file
 ca ub Unite buffer
