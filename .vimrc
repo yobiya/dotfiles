@@ -45,6 +45,7 @@ NeoBundle 'leafgarland/typescript-vim.git'
 NeoBundle 'https://github.com/clausreinke/typescript-tools.vim.git'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'GutenYe/json5.vim'
+NeoBundle 'tpope/vim-surround'
 
 NeoBundle 'OmniSharp/omnisharp-vim.git', {
 \   'autoload': {'filetypes': ['cs']},
