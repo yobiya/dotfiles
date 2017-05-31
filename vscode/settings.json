@@ -1,0 +1,56 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.otherModesKeyBindings":
+    [
+        {
+            "before": ["jk"],
+            "after": [],
+            "commands":
+            [
+                {
+                    "command": ":w"
+                }
+            ]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": [":"]
+        },
+        {
+            "before": ["<C-m>"],
+            "after": ["<Enter>"]
+        },
+        {
+            "before": ["<ESC>", "<ESC>"],
+            "after": [],
+            "commands":
+            [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["*"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["0"]
+        }
+    ],
+
+    "files.exclude":
+    {
+        "**/*.meta": true,
+        "Library": true,
+        "Temp": true
+    }
+}
