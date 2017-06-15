@@ -6,7 +6,6 @@
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.hlsearch": true,
-    "vim.leader": "<space>",
     "vim.disableAnnoyingNeovimMessage": true,
     "vim.otherModesKeyBindings":
     [
@@ -27,6 +26,11 @@
                     "command": ":nohl"
                 }
             ]
+        },
+        {
+            // leaderキーを実行する
+            "before": ["<space>"],
+            "after": ["\\", "\\"]
         },
         {
             "before": ["<C-k>"],
