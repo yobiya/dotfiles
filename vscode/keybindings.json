@@ -37,10 +37,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "k j",
-        "command": "workbench.action.files.save"
-    },
-    {
         "key": "ctrl+s",
         "command": "-workbench.action.files.save"
     }
