@@ -41,6 +41,13 @@
             "after": ["y", "$"]
         }
     ],
+    "vim.insertModeKeyBindings":
+    [
+        {
+            "before": ["<C-k>"],
+            "after": ["*"]
+        }
+    ],
 
     "files.exclude":
     {
