@@ -3,6 +3,7 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
     "editor.autoClosingBrackets": false,
+    "workbench.editor.enablePreview": false,
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.hlsearch": true,
