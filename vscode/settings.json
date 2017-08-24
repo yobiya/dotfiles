@@ -57,5 +57,8 @@
         "Library": true,
         "Temp": true
     },
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.parameterHints": false
 }
