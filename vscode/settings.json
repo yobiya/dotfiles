@@ -50,6 +50,11 @@
             "after": ["*"]
         }
     ],
+    "vim.handleKeys":
+    {
+        // Vimプラグインに届かなくなっているキーを届くようにする
+        "<C-d>": true
+    },
 
     "files.exclude":
     {
