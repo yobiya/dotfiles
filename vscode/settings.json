@@ -9,7 +9,7 @@
     "vim.easymotionMarkerYOffset": -4,
     "vim.easymotionMarkerBackgroundColor": "clear", // 背景色を非表示にしたいので、解析に失敗する文字列を入れる
     "vim.hlsearch": true,
-    "vim.otherModesKeyBindings":
+    "vim.normalModeKeyBindings":
     [
         {
             "before": ["<C-j>"],
