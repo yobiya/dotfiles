@@ -2,12 +2,9 @@
 {
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
-    "editor.autoClosingBrackets": false,
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "vim.easymotion": true,
-    "vim.easymotionMarkerYOffset": -4,
-    "vim.easymotionMarkerBackgroundColor": "clear", // 背景色を非表示にしたいので、解析に失敗する文字列を入れる
     "vim.hlsearch": true,
     "vim.normalModeKeyBindings":
     [
@@ -65,5 +62,6 @@
     "window.zoomLevel": 1,
 
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.parameterHints": false
+    "vim.easymotionMarkerMargin": 4,
+    "editor.autoClosingBrackets": "never"
 }
